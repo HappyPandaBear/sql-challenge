@@ -4,7 +4,7 @@
 CREATE TABLE "departments" (
     "dept_no" varchar   NOT NULL,
     "dept_name" varchar   NOT NULL,
-    CONSTRAINT pk_departments PRIMARY KEY (dept_no));
+    	CONSTRAINT pk_departments PRIMARY KEY (dept_no));
 
 SELECT * FROM departments;
 
@@ -39,7 +39,7 @@ CREATE TABLE "employees" (
     "last_name" varchar   NOT NULL,
     "sex" varchar   NOT NULL,
     "hire_date" date   NOT NULL,
-    CONSTRAINT pk_employees PRIMARY KEY (emp_no));
+    	CONSTRAINT pk_employees PRIMARY KEY (emp_no));
 
 SELECT * FROM employees;
 
